@@ -1,33 +1,19 @@
-
 .venv/
-__pycache__/
-*.pyc
-.pytest_cache/
-.ipynb_checkpoints/
-
-
 node_modules/
 dist/
-.vite/
-
+__pycache__/
+.ipynb_checkpoints/
 .env
 .env.*
 !.env.example
 
-# Dataset files
 data/raw/**
-data/interim/**
 data/processed/**
+data/interim/**
 !data/**/.gitkeep
-
 
 *.pkl
 *.joblib
 *.pth
 *.pt
 *.safetensors
-
-.vscode/
-.idea/
-.DS_Store
-Thumbs.db
